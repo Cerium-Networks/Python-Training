@@ -33,4 +33,61 @@ Input: Multiply
 Input: Exit
 """
 
+# =============================
+#        GET THE INPUT
+# =============================
 
+# Initialize Empty List
+from unittest import result
+
+from numpy import average
+
+
+myNumbers = []
+
+# Initialize user input
+userInput = ""
+
+# While userinput isn't stop, add numbers to the list
+while userInput != "stop":
+    userInput = input("Enter a number: ")
+    if(userInput != "stop"):
+        myNumbers.append(int(userInput))
+
+
+# =============================
+#        DO THE MATH
+# =============================
+
+# Initialize user input
+userInput = ""
+
+# While userinput isn't stop, add numbers to the list
+while userInput != "exit":
+
+    userInput = input("Would you like to: add, multiply, average, or exit? ").lower()
+
+    if userInput == "add":
+        summation = sum(myNumbers)
+        
+        print(f"The sum is {summation}")
+
+    elif userInput == "multiply":
+        result = 1
+        for number in myNumbers:
+            result = result * number
+
+        print(f"The product is {result}")
+
+    elif userInput == "average":
+        summation = sum(myNumbers)
+        average = summation / len(myNumbers)
+
+        print(f"The average is {average}")
+
+    elif userInput == "exit":
+        print("Goodbye!")
+        exit()
+
+    else:
+        print(f"Unknown input: {userInput}")

@@ -1,13 +1,16 @@
 # Part Five - User Input
 
 
-userName = input("What is your name? ")
-##print("Your name is", userName, "and it is", userName.length, "characters long")
-print(f"Your name is {userName}, and it is {len(userName)} characters long")
+# userName = input("What is your name? ")
+# print(f"Your name is {userName}, and it is {len(userName)} characters long")
 
+# print("Your name is", userName, "and it is", userName.length, "characters long")
 
-#favNumber = input("What is your favorite number? ")
-#print(f"Your favorite number * 3 is {favNumber / 3}")
+favNumberAsString = input("What is your favorite number? ")
+
+favNumAsInt = int(favNumberAsString)
+
+print(f"Your favorite number * 3 is {favNumAsInt * 3}")
 
 
 """
@@ -24,3 +27,7 @@ Returns:
 
 Hint: You can multiply strings by numbers to print a string that number of times
 """
+
+
+
+

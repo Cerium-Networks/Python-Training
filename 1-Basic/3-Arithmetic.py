@@ -1,24 +1,24 @@
 # Part Three- Basic Variable arithmatic and math
-num1 = 20
-num2 = 6
+myInt1 = 20
+myInt2 = 6
 
 # Add and Subtract
-addExample = num1 + num2
-subExample = num1 - num2
+addExample = myInt1 + myInt2
+subExample = myInt1 - myInt2
 
 # Multiply and Divide(s)
-multExample = num1 * num2
-floatDivExample = num1 / num2
-intDivExample = num1 // num2
+multExample = myInt1 * myInt2
+floatDivExample = myInt1 / myInt2
+intDivExample = myInt1 // myInt2
 
 # Exponents
-expExample = num1 ** 2
+expExample = myInt1 ** 2
 
 # Modulo (Remainder)
-modExample = num1 % 3
+modExample = myInt1 % 3
 
 # Order of Operations
-pemdasExample = (num1 + num2) * 5
+pemdasExample = (myInt1 + myInt2) * 5
 
 # Other
 cat = 5
@@ -40,3 +40,8 @@ Task 1 - Print out the variables:
 Task 2 - Find the average of 14, 12, 32, 82, 17, and print the result
 """
 
+summation = 14 + 12 + 32 + 82 + 17
+
+div = summation / 5
+
+print(div)

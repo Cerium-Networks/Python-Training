@@ -5,7 +5,8 @@ emptyList = []
 
 # Example of a useful dictionary, with printing
 myCar = {
-    "make": "Mazda", "model": "3",
+    "make": "Mazda", 
+    "model": "3",
     "year": 2008,
     "color": "Black"
 }
@@ -17,4 +18,21 @@ print(f"My car is a {myCar['color']} {myCar['make']} {myCar['model']} from {myCa
 Task - Create a user profile for yourself, and print out the dictionary in
         a sentence format, similar to the example above
 """
+
+
+
+myCar = {
+    "make": "Mazda", 
+    "model": "3",
+    "year": 2008,
+    "color": "Black"
+}
+
+myCar["color"] = "red"
+
+myCar["size"] = "smol"
+
+
+myList[2] = "Paul"
+myList[10] = "Steve"
 

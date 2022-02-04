@@ -6,3 +6,14 @@ Task - Write your own function
     - and prints it out backwards
 """
 
+def printReverse(string):
+    stringReversed = string[::-1]
+    print(stringReversed)
+
+animals = ["Cat", "dog", "pig", "horse"]
+
+for animal in animals:
+    printReverse(animal)
+
+
+

@@ -13,12 +13,12 @@ come back to this later.
 """
 
 def demo():
-    color('red', 'yellow')
-    begin_fill()
+    t.color('red', 'yellow')
+    t.begin_fill()
     while True:
-        forward(200)
-        left(170)
-        if abs(pos()) < 1:
+        t.forward(200)
+        t.left(170)
+        if abs(t.pos()) < 1:
             break
 
 

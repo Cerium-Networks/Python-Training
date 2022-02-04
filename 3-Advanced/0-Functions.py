@@ -4,7 +4,6 @@ def combine(a, b):
     result = a + b
     return result
 
-
 """
 If you run this file as is, you'll see it appears to do nothing.
 When you create a method, you must 'call' it in order for it to run
@@ -12,9 +11,11 @@ When you create a method, you must 'call' it in order for it to run
 Uncomment the lines below to call 'combine', defined above
 """
 
-var1 = combine("Dog", 1)
+animal = combine("Dog", "Cat")
+num = combine(5, 9) 
 
-print(var1)
+print(animal)
+print(num)
 
 """
 Task - Call the combine function with 2 numbers, and print out the result
